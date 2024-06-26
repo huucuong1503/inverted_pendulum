@@ -1,0 +1,40 @@
+[0.366s] Invoking command in '/home/huucuong/mypendulumn/build/inverted_pendulum': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/huucuong/mypendulumn/build/inverted_pendulum -- -j12 -l12
+[0.442s] [35m[1mScanning dependencies of target control_pendulum[0m
+[0.503s] [ 50%] [32mBuilding CXX object CMakeFiles/control_pendulum.dir/src/control.cpp.o[0m
+[6.517s] [100%] [32m[1mLinking CXX executable control_pendulum[0m
+[6.913s] [100%] Built target control_pendulum
+[6.927s] Invoked command in '/home/huucuong/mypendulumn/build/inverted_pendulum' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/huucuong/mypendulumn/build/inverted_pendulum -- -j12 -l12
+[6.985s] Invoking command in '/home/huucuong/mypendulumn/build/inverted_pendulum': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/huucuong/mypendulumn/build/inverted_pendulum
+[7.002s] -- Install configuration: ""
+[7.002s] -- Execute custom install script
+[7.002s] -- Up-to-date symlink: /home/huucuong/mypendulumn/install/inverted_pendulum/lib/inverted_pendulum/control_pendulum
+[7.003s] -- Up-to-date symlink: /home/huucuong/mypendulumn/install/inverted_pendulum/share/inverted_pendulum/description/example_gazebo.xacro
+[7.003s] -- Up-to-date symlink: /home/huucuong/mypendulumn/install/inverted_pendulum/share/inverted_pendulum/description/example_gazebo_test.xacro
+[7.003s] -- Up-to-date symlink: /home/huucuong/mypendulumn/install/inverted_pendulum/share/inverted_pendulum/description/example_include.xacro
+[7.003s] -- Up-to-date symlink: /home/huucuong/mypendulumn/install/inverted_pendulum/share/inverted_pendulum/description/pendulum_frame.xacro
+[7.003s] -- Up-to-date symlink: /home/huucuong/mypendulumn/install/inverted_pendulum/share/inverted_pendulum/description/pendulum_frame_test.xacro
+[7.004s] -- Up-to-date symlink: /home/huucuong/mypendulumn/install/inverted_pendulum/share/inverted_pendulum/launch/launch_pendulum.launch.py
+[7.004s] -- Up-to-date symlink: /home/huucuong/mypendulumn/install/inverted_pendulum/share/inverted_pendulum/meshes/DC-Motor-STEP.stl
+[7.004s] -- Up-to-date symlink: /home/huucuong/mypendulumn/install/inverted_pendulum/share/inverted_pendulum/meshes/Encoder.stl
+[7.004s] -- Up-to-date symlink: /home/huucuong/mypendulumn/install/inverted_pendulum/share/inverted_pendulum/meshes/dau_noi_ti.stl
+[7.004s] -- Up-to-date symlink: /home/huucuong/mypendulumn/install/inverted_pendulum/share/inverted_pendulum/meshes/frame.stl
+[7.004s] -- Up-to-date symlink: /home/huucuong/mypendulumn/install/inverted_pendulum/share/inverted_pendulum/meshes/rod.stl
+[7.005s] -- Up-to-date symlink: /home/huucuong/mypendulumn/install/inverted_pendulum/share/inverted_pendulum/meshes/scaledDesk.stl
+[7.005s] -- Up-to-date symlink: /home/huucuong/mypendulumn/install/inverted_pendulum/share/inverted_pendulum/meshes/slider.stl
+[7.005s] -- Up-to-date symlink: /home/huucuong/mypendulumn/install/inverted_pendulum/share/inverted_pendulum/src/control.cpp
+[7.005s] -- Up-to-date symlink: /home/huucuong/mypendulumn/install/inverted_pendulum/share/ament_index/resource_index/package_run_dependencies/inverted_pendulum
+[7.006s] -- Up-to-date symlink: /home/huucuong/mypendulumn/install/inverted_pendulum/share/ament_index/resource_index/parent_prefix_path/inverted_pendulum
+[7.006s] -- Up-to-date symlink: /home/huucuong/mypendulumn/install/inverted_pendulum/share/inverted_pendulum/environment/ament_prefix_path.sh
+[7.006s] -- Up-to-date symlink: /home/huucuong/mypendulumn/install/inverted_pendulum/share/inverted_pendulum/environment/ament_prefix_path.dsv
+[7.006s] -- Up-to-date symlink: /home/huucuong/mypendulumn/install/inverted_pendulum/share/inverted_pendulum/environment/path.sh
+[7.006s] -- Up-to-date symlink: /home/huucuong/mypendulumn/install/inverted_pendulum/share/inverted_pendulum/environment/path.dsv
+[7.007s] -- Up-to-date symlink: /home/huucuong/mypendulumn/install/inverted_pendulum/share/inverted_pendulum/local_setup.bash
+[7.007s] -- Up-to-date symlink: /home/huucuong/mypendulumn/install/inverted_pendulum/share/inverted_pendulum/local_setup.sh
+[7.007s] -- Up-to-date symlink: /home/huucuong/mypendulumn/install/inverted_pendulum/share/inverted_pendulum/local_setup.zsh
+[7.007s] -- Up-to-date symlink: /home/huucuong/mypendulumn/install/inverted_pendulum/share/inverted_pendulum/local_setup.dsv
+[7.007s] -- Symlinking: /home/huucuong/mypendulumn/install/inverted_pendulum/share/inverted_pendulum/package.dsv
+[7.024s] -- Up-to-date symlink: /home/huucuong/mypendulumn/install/inverted_pendulum/share/ament_index/resource_index/packages/inverted_pendulum
+[7.024s] -- Up-to-date symlink: /home/huucuong/mypendulumn/install/inverted_pendulum/share/inverted_pendulum/cmake/inverted_pendulumConfig.cmake
+[7.024s] -- Up-to-date symlink: /home/huucuong/mypendulumn/install/inverted_pendulum/share/inverted_pendulum/cmake/inverted_pendulumConfig-version.cmake
+[7.025s] -- Up-to-date symlink: /home/huucuong/mypendulumn/install/inverted_pendulum/share/inverted_pendulum/package.xml
+[7.032s] Invoked command in '/home/huucuong/mypendulumn/build/inverted_pendulum' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/huucuong/mypendulumn/build/inverted_pendulum

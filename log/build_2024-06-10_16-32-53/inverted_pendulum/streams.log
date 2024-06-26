@@ -1,0 +1,15 @@
+[0.209s] Invoking command in '/home/huucuong/mypendulumn/build/inverted_pendulum': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/huucuong/mypendulumn/build/inverted_pendulum -- -j12 -l12
+[0.274s] [35m[1mScanning dependencies of target control_pendulum[0m
+[0.294s] [ 50%] Built target joint_state_listener
+[0.308s] [ 75%] [32mBuilding CXX object CMakeFiles/control_pendulum.dir/src/control.cpp.o[0m
+[1.524s] [01m[K/home/huucuong/mypendulumn/src/inverted_pendulum/src/control.cpp:[m[K In member function ‘[01m[Kvoid WrenchPublisher::topic_callback(sensor_msgs::msg::JointState_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.524s] [01m[K/home/huucuong/mypendulumn/src/inverted_pendulum/src/control.cpp:61:27:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[1.524s]    61 |     myPos=msg->position[0]
+[1.524s]       |                           [01;31m[K^[m[K
+[1.524s]       |                           [32m[K;[m[K
+[1.524s]    62 |     [32m[K}[m[K
+[1.524s]       |     [32m[K~[m[K                      
+[3.075s] make[2]: *** [CMakeFiles/control_pendulum.dir/build.make:63: CMakeFiles/control_pendulum.dir/src/control.cpp.o] Error 1
+[3.075s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/control_pendulum.dir/all] Error 2
+[3.076s] make: *** [Makefile:141: all] Error 2
+[3.078s] Invoked command in '/home/huucuong/mypendulumn/build/inverted_pendulum' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/huucuong/mypendulumn/build/inverted_pendulum -- -j12 -l12

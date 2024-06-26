@@ -1,0 +1,24 @@
+[0.218s] Invoking command in '/home/huucuong/mypendulumn/build/inverted_pendulum': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/huucuong/mypendulumn/build/inverted_pendulum -- -j12 -l12
+[0.282s] [35m[1mScanning dependencies of target control_pendulum[0m
+[0.329s] [ 50%] [32mBuilding CXX object CMakeFiles/control_pendulum.dir/src/control.cpp.o[0m
+[1.811s] [01m[K/home/huucuong/mypendulumn/src/inverted_pendulum/src/control.cpp:25:11:[m[K [01;31m[Kerror: [m[K‘[01m[KSLIDER_ENC_COUNT[m[K’ does not name a type
+[1.811s]    25 |     const [01;31m[KSLIDER_ENC_COUNT[m[K=24000;
+[1.811s]       |           [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[1.814s] [01m[K/home/huucuong/mypendulumn/src/inverted_pendulum/src/control.cpp:26:11:[m[K [01;31m[Kerror: [m[K‘[01m[KANGLE_ENC_COUNT[m[K’ does not name a type
+[1.814s]    26 |     const [01;31m[KANGLE_ENC_COUNT[m[K=2400;
+[1.814s]       |           [01;31m[K^~~~~~~~~~~~~~~[m[K
+[1.861s] [01m[K/home/huucuong/mypendulumn/src/inverted_pendulum/src/control.cpp:[m[K In member function ‘[01m[Kvoid WrenchPublisher::publish_wrench()[m[K’:
+[1.862s] [01m[K/home/huucuong/mypendulumn/src/inverted_pendulum/src/control.cpp:51:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kpush[m[K’ was not declared in this scope
+[1.862s]    51 |         message.force.x = [01;31m[Kpush[m[K;
+[1.862s]       |                           [01;31m[K^~~~[m[K
+[1.886s] [01m[K/home/huucuong/mypendulumn/src/inverted_pendulum/src/control.cpp:[m[K In member function ‘[01m[Kvoid WrenchPublisher::topic_callback(sensor_msgs::msg::JointState_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.887s] [01m[K/home/huucuong/mypendulumn/src/inverted_pendulum/src/control.cpp:63:38:[m[K [01;31m[Kerror: [m[K‘[01m[KANGLE_ENC_COUNT[m[K’ was not declared in this scope
+[1.887s]    63 |     pendulum_pos=msg->position[1]/PI*[01;31m[KANGLE_ENC_COUNT[m[K;
+[1.887s]       |                                      [01;31m[K^~~~~~~~~~~~~~~[m[K
+[1.887s] [01m[K/home/huucuong/mypendulumn/src/inverted_pendulum/src/control.cpp:64:38:[m[K [01;31m[Kerror: [m[K‘[01m[KSLIDER_ENC_COUNT[m[K’ was not declared in this scope
+[1.887s]    64 |     slider_pos=msg->position[0]/0.35*[01;31m[KSLIDER_ENC_COUNT[m[K;
+[1.887s]       |                                      [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[3.775s] make[2]: *** [CMakeFiles/control_pendulum.dir/build.make:63: CMakeFiles/control_pendulum.dir/src/control.cpp.o] Error 1
+[3.775s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/control_pendulum.dir/all] Error 2
+[3.775s] make: *** [Makefile:141: all] Error 2
+[3.779s] Invoked command in '/home/huucuong/mypendulumn/build/inverted_pendulum' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/huucuong/mypendulumn/build/inverted_pendulum -- -j12 -l12

@@ -1,0 +1,24 @@
+[0.217s] Invoking command in '/home/huucuong/mypendulumn/build/inverted_pendulum': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/huucuong/mypendulumn/build/inverted_pendulum -- -j12 -l12
+[0.286s] [35m[1mScanning dependencies of target control_pendulum[0m
+[0.325s] [ 50%] [32mBuilding CXX object CMakeFiles/control_pendulum.dir/src/control.cpp.o[0m
+[1.504s] [01m[K/home/huucuong/mypendulumn/src/inverted_pendulum/src/control.cpp:16:21:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KWrenchSubcriber[m[K’ with no type [[01;31m[K-fpermissive[m[K]
+[1.504s]    16 |     WrenchSubcriber([01;31m[K)[m[K
+[1.504s]       |                     [01;31m[K^[m[K
+[1.521s] [01m[K/home/huucuong/mypendulumn/src/inverted_pendulum/src/control.cpp:[m[K In member function ‘[01m[Kint WrenchPublisher::WrenchSubcriber()[m[K’:
+[1.522s] [01m[K/home/huucuong/mypendulumn/src/inverted_pendulum/src/control.cpp:17:7:[m[K [01;31m[Kerror: [m[Konly constructors take member initializers
+[1.522s]    17 |     : [01;31m[KNode[m[K("publishforce")
+[1.522s]       |       [01;31m[K^~~~[m[K
+[1.522s] [01m[K/home/huucuong/mypendulumn/src/inverted_pendulum/src/control.cpp:24:5:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[1.522s]    24 |     [01;35m[K}[m[K
+[1.522s]       |     [01;35m[K^[m[K
+[1.529s] [01m[K/home/huucuong/mypendulumn/src/inverted_pendulum/src/control.cpp:[m[K In member function ‘[01m[Kvoid WrenchPublisher::publish_wrench()[m[K’:
+[1.529s] [01m[K/home/huucuong/mypendulumn/src/inverted_pendulum/src/control.cpp:42:19:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[1.529s]    42 |         push=-push
+[1.529s]       |                   [01;31m[K^[m[K
+[1.530s]       |                   [32m[K;[m[K
+[1.530s]    43 |     [32m[K}[m[K
+[1.530s]       |     [32m[K~[m[K              
+[2.397s] make[2]: *** [CMakeFiles/control_pendulum.dir/build.make:63: CMakeFiles/control_pendulum.dir/src/control.cpp.o] Error 1
+[2.397s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/control_pendulum.dir/all] Error 2
+[2.397s] make: *** [Makefile:141: all] Error 2
+[2.401s] Invoked command in '/home/huucuong/mypendulumn/build/inverted_pendulum' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/huucuong/mypendulumn/build/inverted_pendulum -- -j12 -l12

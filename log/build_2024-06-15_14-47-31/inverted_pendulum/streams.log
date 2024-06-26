@@ -1,0 +1,10 @@
+[0.390s] Invoking command in '/home/huucuong/mypendulumn/build/inverted_pendulum': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/huucuong/mypendulumn/build/inverted_pendulum -- -j12 -l12
+[0.518s] [35m[1mScanning dependencies of target control_pendulum[0m
+[0.574s] [ 50%] [32mBuilding CXX object CMakeFiles/control_pendulum.dir/src/control.cpp.o[0m
+[2.770s] [01m[K/home/huucuong/mypendulumn/src/inverted_pendulum/src/control.cpp:24:5:[m[K [01;31m[Kerror: [m[Knon-static data member declared with placeholder ‘[01m[Kauto[m[K’
+[2.770s]    24 |     [01;31m[Kauto[m[K myPos;
+[2.770s]       |     [01;31m[K^~~~[m[K
+[4.936s] make[2]: *** [CMakeFiles/control_pendulum.dir/build.make:63: CMakeFiles/control_pendulum.dir/src/control.cpp.o] Error 1
+[4.936s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/control_pendulum.dir/all] Error 2
+[4.936s] make: *** [Makefile:141: all] Error 2
+[4.939s] Invoked command in '/home/huucuong/mypendulumn/build/inverted_pendulum' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/huucuong/mypendulumn/build/inverted_pendulum -- -j12 -l12

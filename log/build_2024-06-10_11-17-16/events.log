@@ -1,0 +1,94 @@
+[0.000000] (-) TimerEvent: {}
+[0.000914] (inverted_pendulum) JobQueued: {'identifier': 'inverted_pendulum', 'dependencies': OrderedDict()}
+[0.001004] (inverted_pendulum) JobStarted: {'identifier': 'inverted_pendulum'}
+[0.099747] (-) TimerEvent: {}
+[0.200502] (-) TimerEvent: {}
+[0.300961] (inverted_pendulum) JobProgress: {'identifier': 'inverted_pendulum', 'progress': 'cmake'}
+[0.301177] (-) TimerEvent: {}
+[0.302398] (inverted_pendulum) JobProgress: {'identifier': 'inverted_pendulum', 'progress': 'build'}
+[0.303464] (inverted_pendulum) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/huucuong/mypendulumn/build/inverted_pendulum', '--', '-j12', '-l12'], 'cwd': '/home/huucuong/mypendulumn/build/inverted_pendulum', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'huucuong'), ('LC_TIME', 'vi_VN'), ('SSH_AGENT_PID', '1472'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/huucuong'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/huucuong/.nvm/versions/node/v20.12.2/bin'), ('NVM_INC', '/home/huucuong/.nvm/versions/node/v20.12.2/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'vi_VN'), ('MANAGERPID', '1140'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/huucuong/.nvm'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/huucuong/mypendulumn/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'huucuong'), ('JOURNAL_STREAM', '8:44512'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'huucuong'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/huucuong/.nvm/versions/node/v20.12.2/bin:/opt/ros/foxy/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/huucuong/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/huucuong-IdeaPad-5-14ALC05:@/tmp/.ICE-unix/1538,unix/huucuong-IdeaPad-5-14ALC05:/tmp/.ICE-unix/1538'), ('INVOCATION_ID', 'ab8f15e4210d4df59f570f11e65e01b7'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/03e0967c_4425_4743_bb71_c98cd88f7b5d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.274'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/huucuong/mypendulumn/install/inverted_pendulum:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'vi_VN'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/huucuong/mypendulumn/build/inverted_pendulum'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/huucuong/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('_WSREP_START_POSITION', ''), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/huucuong/mypendulumn/install/inverted_pendulum:/opt/ros/foxy')]), 'shell': False}
+[0.375896] (inverted_pendulum) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target control_pendulum\x1b[0m\n'}
+[0.401306] (-) TimerEvent: {}
+[0.420176] (inverted_pendulum) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/control_pendulum.dir/src/control.cpp.o\x1b[0m\n'}
+[0.501419] (-) TimerEvent: {}
+[0.601844] (-) TimerEvent: {}
+[0.702228] (-) TimerEvent: {}
+[0.802808] (-) TimerEvent: {}
+[0.903272] (-) TimerEvent: {}
+[1.003788] (-) TimerEvent: {}
+[1.104319] (-) TimerEvent: {}
+[1.204813] (-) TimerEvent: {}
+[1.305243] (-) TimerEvent: {}
+[1.405655] (-) TimerEvent: {}
+[1.506092] (-) TimerEvent: {}
+[1.606529] (-) TimerEvent: {}
+[1.706966] (-) TimerEvent: {}
+[1.807436] (-) TimerEvent: {}
+[1.907873] (-) TimerEvent: {}
+[2.008342] (-) TimerEvent: {}
+[2.108784] (-) TimerEvent: {}
+[2.209186] (-) TimerEvent: {}
+[2.309636] (-) TimerEvent: {}
+[2.410047] (-) TimerEvent: {}
+[2.510469] (-) TimerEvent: {}
+[2.610879] (-) TimerEvent: {}
+[2.711245] (-) TimerEvent: {}
+[2.811639] (-) TimerEvent: {}
+[2.912123] (-) TimerEvent: {}
+[3.012525] (-) TimerEvent: {}
+[3.112967] (-) TimerEvent: {}
+[3.213337] (-) TimerEvent: {}
+[3.313743] (-) TimerEvent: {}
+[3.414107] (-) TimerEvent: {}
+[3.514444] (-) TimerEvent: {}
+[3.614790] (-) TimerEvent: {}
+[3.715138] (-) TimerEvent: {}
+[3.815480] (-) TimerEvent: {}
+[3.915923] (-) TimerEvent: {}
+[4.000376] (inverted_pendulum) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable control_pendulum\x1b[0m\n'}
+[4.015996] (-) TimerEvent: {}
+[4.116437] (-) TimerEvent: {}
+[4.198103] (inverted_pendulum) StdoutLine: {'line': b'[100%] Built target control_pendulum\n'}
+[4.216305] (inverted_pendulum) CommandEnded: {'returncode': 0}
+[4.217174] (-) TimerEvent: {}
+[4.253347] (inverted_pendulum) JobProgress: {'identifier': 'inverted_pendulum', 'progress': 'install'}
+[4.272386] (inverted_pendulum) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/huucuong/mypendulumn/build/inverted_pendulum'], 'cwd': '/home/huucuong/mypendulumn/build/inverted_pendulum', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'huucuong'), ('LC_TIME', 'vi_VN'), ('SSH_AGENT_PID', '1472'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/huucuong'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/huucuong/.nvm/versions/node/v20.12.2/bin'), ('NVM_INC', '/home/huucuong/.nvm/versions/node/v20.12.2/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'vi_VN'), ('MANAGERPID', '1140'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/huucuong/.nvm'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/huucuong/mypendulumn/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'huucuong'), ('JOURNAL_STREAM', '8:44512'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'huucuong'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/huucuong/.nvm/versions/node/v20.12.2/bin:/opt/ros/foxy/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/huucuong/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/huucuong-IdeaPad-5-14ALC05:@/tmp/.ICE-unix/1538,unix/huucuong-IdeaPad-5-14ALC05:/tmp/.ICE-unix/1538'), ('INVOCATION_ID', 'ab8f15e4210d4df59f570f11e65e01b7'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/03e0967c_4425_4743_bb71_c98cd88f7b5d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.274'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/huucuong/mypendulumn/install/inverted_pendulum:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'vi_VN'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/huucuong/mypendulumn/build/inverted_pendulum'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/huucuong/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('_WSREP_START_POSITION', ''), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/huucuong/mypendulumn/install/inverted_pendulum:/opt/ros/foxy')]), 'shell': False}
+[4.288523] (inverted_pendulum) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.289001] (inverted_pendulum) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[4.289277] (inverted_pendulum) StdoutLine: {'line': b'-- Up-to-date symlink: /home/huucuong/mypendulumn/install/inverted_pendulum/lib/inverted_pendulum/control_pendulum\n'}
+[4.289684] (inverted_pendulum) StdoutLine: {'line': b'-- Up-to-date symlink: /home/huucuong/mypendulumn/install/inverted_pendulum/share/inverted_pendulum/description/example_gazebo.xacro\n'}
+[4.289885] (inverted_pendulum) StdoutLine: {'line': b'-- Up-to-date symlink: /home/huucuong/mypendulumn/install/inverted_pendulum/share/inverted_pendulum/description/example_gazebo_test.xacro\n'}
+[4.290088] (inverted_pendulum) StdoutLine: {'line': b'-- Up-to-date symlink: /home/huucuong/mypendulumn/install/inverted_pendulum/share/inverted_pendulum/description/example_include.xacro\n'}
+[4.290294] (inverted_pendulum) StdoutLine: {'line': b'-- Up-to-date symlink: /home/huucuong/mypendulumn/install/inverted_pendulum/share/inverted_pendulum/description/pendulum_frame.xacro\n'}
+[4.290464] (inverted_pendulum) StdoutLine: {'line': b'-- Up-to-date symlink: /home/huucuong/mypendulumn/install/inverted_pendulum/share/inverted_pendulum/description/pendulum_frame_test.xacro\n'}
+[4.290611] (inverted_pendulum) StdoutLine: {'line': b'-- Up-to-date symlink: /home/huucuong/mypendulumn/install/inverted_pendulum/share/inverted_pendulum/launch/launch_pendulum.launch.py\n'}
+[4.290801] (inverted_pendulum) StdoutLine: {'line': b'-- Up-to-date symlink: /home/huucuong/mypendulumn/install/inverted_pendulum/share/inverted_pendulum/meshes/DC-Motor-STEP.stl\n'}
+[4.290991] (inverted_pendulum) StdoutLine: {'line': b'-- Up-to-date symlink: /home/huucuong/mypendulumn/install/inverted_pendulum/share/inverted_pendulum/meshes/Encoder.stl\n'}
+[4.291192] (inverted_pendulum) StdoutLine: {'line': b'-- Up-to-date symlink: /home/huucuong/mypendulumn/install/inverted_pendulum/share/inverted_pendulum/meshes/dau_noi_ti.stl\n'}
+[4.291418] (inverted_pendulum) StdoutLine: {'line': b'-- Up-to-date symlink: /home/huucuong/mypendulumn/install/inverted_pendulum/share/inverted_pendulum/meshes/frame.stl\n'}
+[4.291595] (inverted_pendulum) StdoutLine: {'line': b'-- Up-to-date symlink: /home/huucuong/mypendulumn/install/inverted_pendulum/share/inverted_pendulum/meshes/rod.stl\n'}
+[4.291739] (inverted_pendulum) StdoutLine: {'line': b'-- Up-to-date symlink: /home/huucuong/mypendulumn/install/inverted_pendulum/share/inverted_pendulum/meshes/scaledDesk.stl\n'}
+[4.291921] (inverted_pendulum) StdoutLine: {'line': b'-- Up-to-date symlink: /home/huucuong/mypendulumn/install/inverted_pendulum/share/inverted_pendulum/meshes/slider.stl\n'}
+[4.292110] (inverted_pendulum) StdoutLine: {'line': b'-- Up-to-date symlink: /home/huucuong/mypendulumn/install/inverted_pendulum/share/inverted_pendulum/src/control.cpp\n'}
+[4.292300] (inverted_pendulum) StdoutLine: {'line': b'-- Up-to-date symlink: /home/huucuong/mypendulumn/install/inverted_pendulum/share/ament_index/resource_index/package_run_dependencies/inverted_pendulum\n'}
+[4.292455] (inverted_pendulum) StdoutLine: {'line': b'-- Up-to-date symlink: /home/huucuong/mypendulumn/install/inverted_pendulum/share/ament_index/resource_index/parent_prefix_path/inverted_pendulum\n'}
+[4.292672] (inverted_pendulum) StdoutLine: {'line': b'-- Up-to-date symlink: /home/huucuong/mypendulumn/install/inverted_pendulum/share/inverted_pendulum/environment/ament_prefix_path.sh\n'}
+[4.292887] (inverted_pendulum) StdoutLine: {'line': b'-- Up-to-date symlink: /home/huucuong/mypendulumn/install/inverted_pendulum/share/inverted_pendulum/environment/ament_prefix_path.dsv\n'}
+[4.293072] (inverted_pendulum) StdoutLine: {'line': b'-- Up-to-date symlink: /home/huucuong/mypendulumn/install/inverted_pendulum/share/inverted_pendulum/environment/path.sh\n'}
+[4.293227] (inverted_pendulum) StdoutLine: {'line': b'-- Up-to-date symlink: /home/huucuong/mypendulumn/install/inverted_pendulum/share/inverted_pendulum/environment/path.dsv\n'}
+[4.293439] (inverted_pendulum) StdoutLine: {'line': b'-- Up-to-date symlink: /home/huucuong/mypendulumn/install/inverted_pendulum/share/inverted_pendulum/local_setup.bash\n'}
+[4.293585] (inverted_pendulum) StdoutLine: {'line': b'-- Up-to-date symlink: /home/huucuong/mypendulumn/install/inverted_pendulum/share/inverted_pendulum/local_setup.sh\n'}
+[4.293777] (inverted_pendulum) StdoutLine: {'line': b'-- Up-to-date symlink: /home/huucuong/mypendulumn/install/inverted_pendulum/share/inverted_pendulum/local_setup.zsh\n'}
+[4.293954] (inverted_pendulum) StdoutLine: {'line': b'-- Up-to-date symlink: /home/huucuong/mypendulumn/install/inverted_pendulum/share/inverted_pendulum/local_setup.dsv\n'}
+[4.294146] (inverted_pendulum) StdoutLine: {'line': b'-- Symlinking: /home/huucuong/mypendulumn/install/inverted_pendulum/share/inverted_pendulum/package.dsv\n'}
+[4.309650] (inverted_pendulum) StdoutLine: {'line': b'-- Up-to-date symlink: /home/huucuong/mypendulumn/install/inverted_pendulum/share/ament_index/resource_index/packages/inverted_pendulum\n'}
+[4.310075] (inverted_pendulum) StdoutLine: {'line': b'-- Up-to-date symlink: /home/huucuong/mypendulumn/install/inverted_pendulum/share/inverted_pendulum/cmake/inverted_pendulumConfig.cmake\n'}
+[4.310331] (inverted_pendulum) StdoutLine: {'line': b'-- Up-to-date symlink: /home/huucuong/mypendulumn/install/inverted_pendulum/share/inverted_pendulum/cmake/inverted_pendulumConfig-version.cmake\n'}
+[4.310698] (inverted_pendulum) StdoutLine: {'line': b'-- Up-to-date symlink: /home/huucuong/mypendulumn/install/inverted_pendulum/share/inverted_pendulum/package.xml\n'}
+[4.313890] (inverted_pendulum) CommandEnded: {'returncode': 0}
+[4.317439] (-) TimerEvent: {}
+[4.418274] (-) TimerEvent: {}
+[4.520054] (-) TimerEvent: {}
+[4.622011] (-) TimerEvent: {}
+[4.680339] (inverted_pendulum) JobEnded: {'identifier': 'inverted_pendulum', 'rc': 0}
+[4.681643] (-) EventReactorShutdown: {}

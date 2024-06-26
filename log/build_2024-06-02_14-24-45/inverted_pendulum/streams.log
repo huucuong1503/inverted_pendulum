@@ -1,0 +1,9 @@
+[0.215s] Invoking command in '/home/huucuong/mypendulumn/build/inverted_pendulum': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/huucuong/mypendulumn/src/inverted_pendulum -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/huucuong/mypendulumn/install/inverted_pendulum
+[0.222s] CMake Error at CMakeLists.txt:44:
+[0.222s]   Parse error.  Expected a command name, got right paren with text ")".
+[0.222s] 
+[0.222s] 
+[0.223s] -- Configuring incomplete, errors occurred!
+[0.223s] See also "/home/huucuong/mypendulumn/build/inverted_pendulum/CMakeFiles/CMakeOutput.log".
+[0.223s] See also "/home/huucuong/mypendulumn/build/inverted_pendulum/CMakeFiles/CMakeError.log".
+[0.224s] Invoked command in '/home/huucuong/mypendulumn/build/inverted_pendulum' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/huucuong/mypendulumn/src/inverted_pendulum -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/huucuong/mypendulumn/install/inverted_pendulum

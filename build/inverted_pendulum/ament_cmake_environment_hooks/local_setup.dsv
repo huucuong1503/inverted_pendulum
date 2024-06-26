@@ -1,0 +1,2 @@
+source;share/inverted_pendulum/environment/ament_prefix_path.sh
+source;share/inverted_pendulum/environment/path.sh

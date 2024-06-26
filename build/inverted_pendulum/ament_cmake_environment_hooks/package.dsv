@@ -1,0 +1,4 @@
+source;share/inverted_pendulum/local_setup.bash
+source;share/inverted_pendulum/local_setup.dsv
+source;share/inverted_pendulum/local_setup.sh
+source;share/inverted_pendulum/local_setup.zsh

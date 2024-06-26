@@ -1,0 +1,11 @@
+[0.198s] Invoking command in '/home/huucuong/mypendulumn/build/inverted_pendulum': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/huucuong/mypendulumn/build/inverted_pendulum -- -j12 -l12
+[0.262s] [35m[1mScanning dependencies of target control_pendulum[0m
+[0.295s] [ 50%] [32mBuilding CXX object CMakeFiles/control_pendulum.dir/src/control.cpp.o[0m
+[0.396s] [01m[K/home/huucuong/mypendulumn/src/inverted_pendulum/src/control.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Ksensor_msgs/msg/joint_state: No such file or directory
+[0.396s]     3 | #include [01;31m[K"sensor_msgs/msg/joint_state"[m[K
+[0.397s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.397s] compilation terminated.
+[0.406s] make[2]: *** [CMakeFiles/control_pendulum.dir/build.make:63: CMakeFiles/control_pendulum.dir/src/control.cpp.o] Error 1
+[0.407s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/control_pendulum.dir/all] Error 2
+[0.407s] make: *** [Makefile:141: all] Error 2
+[0.411s] Invoked command in '/home/huucuong/mypendulumn/build/inverted_pendulum' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/huucuong/mypendulumn/build/inverted_pendulum -- -j12 -l12

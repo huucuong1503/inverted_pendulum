@@ -1,0 +1,8 @@
+source;share/inverted_pendulum/hook/cmake_prefix_path.ps1
+source;share/inverted_pendulum/hook/cmake_prefix_path.dsv
+source;share/inverted_pendulum/hook/cmake_prefix_path.sh
+source;share/inverted_pendulum/local_setup.bash
+source;share/inverted_pendulum/local_setup.dsv
+source;share/inverted_pendulum/local_setup.ps1
+source;share/inverted_pendulum/local_setup.sh
+source;share/inverted_pendulum/local_setup.zsh

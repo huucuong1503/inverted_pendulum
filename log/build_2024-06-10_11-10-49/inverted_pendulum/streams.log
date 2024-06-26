@@ -1,0 +1,18 @@
+[0.301s] Invoking command in '/home/huucuong/mypendulumn/build/inverted_pendulum': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/huucuong/mypendulumn/build/inverted_pendulum -- -j12 -l12
+[0.365s] [35m[1mScanning dependencies of target control_pendulum[0m
+[0.411s] [ 50%] [32mBuilding CXX object CMakeFiles/control_pendulum.dir/src/control.cpp.o[0m
+[2.154s] [01m[K/home/huucuong/mypendulumn/src/inverted_pendulum/src/control.cpp:30:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kvoid[m[K’
+[2.154s]    30 |     [01;31m[Kvoid[m[K publish_wrench()
+[2.154s]       |     [01;31m[K^~~~[m[K
+[2.158s] [01m[K/home/huucuong/mypendulumn/src/inverted_pendulum/src/control.cpp:[m[K In constructor ‘[01m[KWrenchPublisher::WrenchPublisher()[m[K’:
+[2.158s] [01m[K/home/huucuong/mypendulumn/src/inverted_pendulum/src/control.cpp:10:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_publisher_t[m[K’?
+[2.158s]    10 |         [01;31m[Kpublisher_[m[K = this->create_publisher<geometry_msgs::msg::Wrench>("gazebo_ros_force", 10);
+[2.158s]       |         [01;31m[K^~~~~~~~~~[m[K
+[2.159s]       |         [32m[Krcl_publisher_t[m[K
+[2.163s] [01m[K/home/huucuong/mypendulumn/src/inverted_pendulum/src/control.cpp:13:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublish_wrench[m[K’ is not a member of ‘[01m[KWrenchPublisher[m[K’
+[2.163s]    13 |             std::bind(&WrenchPublisher::[01;31m[Kpublish_wrench[m[K, this)
+[2.163s]       |                                         [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.992s] make[2]: *** [CMakeFiles/control_pendulum.dir/build.make:63: CMakeFiles/control_pendulum.dir/src/control.cpp.o] Error 1
+[2.993s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/control_pendulum.dir/all] Error 2
+[2.993s] make: *** [Makefile:141: all] Error 2
+[2.997s] Invoked command in '/home/huucuong/mypendulumn/build/inverted_pendulum' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/huucuong/mypendulumn/build/inverted_pendulum -- -j12 -l12

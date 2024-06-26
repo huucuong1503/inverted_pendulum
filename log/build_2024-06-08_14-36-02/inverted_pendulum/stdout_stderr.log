@@ -1,0 +1,13 @@
+[35m[1mScanning dependencies of target control_pendulum[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/control_pendulum.dir/src/control.cpp.o[0m
+[01m[K/home/huucuong/mypendulumn/src/inverted_pendulum/src/control.cpp:[m[K In constructor ‘[01m[KWrenchPublisher::WrenchPublisher()[m[K’:
+[01m[K/home/huucuong/mypendulumn/src/inverted_pendulum/src/control.cpp:10:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpush[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   10 |         float [01;35m[Kpush[m[K=10.0;
+      |               [01;35m[K^~~~[m[K
+[01m[K/home/huucuong/mypendulumn/src/inverted_pendulum/src/control.cpp:[m[K In member function ‘[01m[Kvoid WrenchPublisher::publish_wrench()[m[K’:
+[01m[K/home/huucuong/mypendulumn/src/inverted_pendulum/src/control.cpp:23:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kpush[m[K’ was not declared in this scope
+   23 |         message.force.x = [01;31m[Kpush[m[K;
+      |                           [01;31m[K^~~~[m[K
+make[2]: *** [CMakeFiles/control_pendulum.dir/build.make:63: CMakeFiles/control_pendulum.dir/src/control.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/control_pendulum.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

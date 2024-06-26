@@ -1,0 +1,9 @@
+CMake Error at CMakeLists.txt:42 (add_executable):
+  add_executable cannot create target "control_pendulum" because another
+  target with the same name already exists.  The existing target is an
+  executable created in source directory
+  "/home/huucuong/mypendulumn/src/inverted_pendulum".  See documentation for
+  policy CMP0002 for more details.
+
+
+make: *** [Makefile:310: cmake_check_build_system] Error 1

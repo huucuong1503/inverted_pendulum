@@ -1,0 +1,20 @@
+[0.358s] Invoking command in '/home/huucuong/mypendulumn/build/inverted_pendulum': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/huucuong/mypendulumn/build/inverted_pendulum -- -j12 -l12
+[0.439s] [35m[1mScanning dependencies of target control_pendulum[0m
+[0.487s] [ 50%] [32mBuilding CXX object CMakeFiles/control_pendulum.dir/src/control.cpp.o[0m
+[2.065s] [01m[K/home/huucuong/mypendulumn/src/inverted_pendulum/src/control.cpp:27:11:[m[K [01;31m[Kerror: [m[K‘[01m[KSLIDER_ENC_COUNT[m[K’ does not name a type
+[2.066s]    27 |     const [01;31m[KSLIDER_ENC_COUNT[m[K=24000;
+[2.066s]       |           [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[2.070s] [01m[K/home/huucuong/mypendulumn/src/inverted_pendulum/src/control.cpp:28:11:[m[K [01;31m[Kerror: [m[K‘[01m[KANGLE_ENC_COUNT[m[K’ does not name a type
+[2.070s]    28 |     const [01;31m[KANGLE_ENC_COUNT[m[K=2400;
+[2.070s]       |           [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.130s] [01m[K/home/huucuong/mypendulumn/src/inverted_pendulum/src/control.cpp:[m[K In member function ‘[01m[Kvoid WrenchPublisher::topic_callback(sensor_msgs::msg::JointState_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.130s] [01m[K/home/huucuong/mypendulumn/src/inverted_pendulum/src/control.cpp:66:38:[m[K [01;31m[Kerror: [m[K‘[01m[KANGLE_ENC_COUNT[m[K’ was not declared in this scope
+[2.130s]    66 |     pendulum_pos=msg->position[1]/PI*[01;31m[KANGLE_ENC_COUNT[m[K;
+[2.130s]       |                                      [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.135s] [01m[K/home/huucuong/mypendulumn/src/inverted_pendulum/src/control.cpp:67:38:[m[K [01;31m[Kerror: [m[K‘[01m[KSLIDER_ENC_COUNT[m[K’ was not declared in this scope
+[2.135s]    67 |     slider_pos=msg->position[0]/0.35*[01;31m[KSLIDER_ENC_COUNT[m[K;
+[2.135s]       |                                      [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[4.085s] make[2]: *** [CMakeFiles/control_pendulum.dir/build.make:63: CMakeFiles/control_pendulum.dir/src/control.cpp.o] Error 1
+[4.085s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/control_pendulum.dir/all] Error 2
+[4.085s] make: *** [Makefile:141: all] Error 2
+[4.088s] Invoked command in '/home/huucuong/mypendulumn/build/inverted_pendulum' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/huucuong/mypendulumn/build/inverted_pendulum -- -j12 -l12

@@ -1,0 +1,71 @@
+[0.000000] (-) TimerEvent: {}
+[0.000692] (inverted_pendulum) JobQueued: {'identifier': 'inverted_pendulum', 'dependencies': OrderedDict()}
+[0.000765] (inverted_pendulum) JobStarted: {'identifier': 'inverted_pendulum'}
+[0.100103] (-) TimerEvent: {}
+[0.185695] (inverted_pendulum) JobProgress: {'identifier': 'inverted_pendulum', 'progress': 'cmake'}
+[0.187326] (inverted_pendulum) JobProgress: {'identifier': 'inverted_pendulum', 'progress': 'build'}
+[0.187620] (inverted_pendulum) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/huucuong/mypendulumn/build/inverted_pendulum', '--', '-j12', '-l12'], 'cwd': '/home/huucuong/mypendulumn/build/inverted_pendulum', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'huucuong'), ('LC_TIME', 'vi_VN'), ('SSH_AGENT_PID', '1468'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/huucuong'), ('OLDPWD', '/home/huucuong'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/huucuong/.nvm/versions/node/v20.12.2/bin'), ('NVM_INC', '/home/huucuong/.nvm/versions/node/v20.12.2/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'vi_VN'), ('MANAGERPID', '1142'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/huucuong/.nvm'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/huucuong/mypendulumn/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'huucuong'), ('JOURNAL_STREAM', '8:38412'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'huucuong'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/huucuong/.nvm/versions/node/v20.12.2/bin:/opt/ros/foxy/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/huucuong/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/huucuong-IdeaPad-5-14ALC05:@/tmp/.ICE-unix/1535,unix/huucuong-IdeaPad-5-14ALC05:/tmp/.ICE-unix/1535'), ('INVOCATION_ID', 'baf2381d646a46d19f47959d77676189'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/102a3910_e31f_4f4b_9e5e_59f1268dd2c9'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.93'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/huucuong/mypendulumn/install/inverted_pendulum:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'vi_VN'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/huucuong/mypendulumn/build/inverted_pendulum'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/huucuong/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('_WSREP_START_POSITION', ''), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/huucuong/mypendulumn/install/inverted_pendulum:/opt/ros/foxy')]), 'shell': False}
+[0.200260] (-) TimerEvent: {}
+[0.233781] (inverted_pendulum) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target wrench_publisher\x1b[0m\n'}
+[0.270945] (inverted_pendulum) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/wrench_publisher.dir/src/control.cpp.o\x1b[0m\n'}
+[0.300382] (-) TimerEvent: {}
+[0.400834] (-) TimerEvent: {}
+[0.501306] (-) TimerEvent: {}
+[0.601769] (-) TimerEvent: {}
+[0.702245] (-) TimerEvent: {}
+[0.802701] (-) TimerEvent: {}
+[0.903097] (-) TimerEvent: {}
+[1.003448] (-) TimerEvent: {}
+[1.103857] (-) TimerEvent: {}
+[1.204259] (-) TimerEvent: {}
+[1.304670] (-) TimerEvent: {}
+[1.405118] (-) TimerEvent: {}
+[1.505533] (-) TimerEvent: {}
+[1.605943] (-) TimerEvent: {}
+[1.706330] (-) TimerEvent: {}
+[1.806728] (-) TimerEvent: {}
+[1.907147] (-) TimerEvent: {}
+[2.007616] (-) TimerEvent: {}
+[2.107997] (-) TimerEvent: {}
+[2.208400] (-) TimerEvent: {}
+[2.308783] (-) TimerEvent: {}
+[2.409197] (-) TimerEvent: {}
+[2.509607] (-) TimerEvent: {}
+[2.609991] (-) TimerEvent: {}
+[2.710364] (-) TimerEvent: {}
+[2.810757] (-) TimerEvent: {}
+[2.911187] (-) TimerEvent: {}
+[3.011628] (-) TimerEvent: {}
+[3.112027] (-) TimerEvent: {}
+[3.212396] (-) TimerEvent: {}
+[3.312790] (-) TimerEvent: {}
+[3.413192] (-) TimerEvent: {}
+[3.513556] (-) TimerEvent: {}
+[3.614160] (-) TimerEvent: {}
+[3.714655] (-) TimerEvent: {}
+[3.815053] (-) TimerEvent: {}
+[3.915441] (-) TimerEvent: {}
+[4.015835] (-) TimerEvent: {}
+[4.116227] (-) TimerEvent: {}
+[4.216623] (-) TimerEvent: {}
+[4.317004] (-) TimerEvent: {}
+[4.417395] (-) TimerEvent: {}
+[4.517782] (-) TimerEvent: {}
+[4.618339] (-) TimerEvent: {}
+[4.718722] (-) TimerEvent: {}
+[4.819136] (-) TimerEvent: {}
+[4.900757] (inverted_pendulum) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable wrench_publisher\x1b[0m\n'}
+[4.919286] (-) TimerEvent: {}
+[5.019722] (-) TimerEvent: {}
+[5.120211] (-) TimerEvent: {}
+[5.153240] (inverted_pendulum) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/wrench_publisher.dir/src/control.cpp.o: in function `rclcpp::create_subscription_factory<sensor_msgs::msg::JointState_<std::allocator<void> >, std::_Bind<void (WrenchPublisher::*(WrenchPublisher*, std::_Placeholder<1>))(std::shared_ptr<sensor_msgs::msg::JointState_<std::allocator<void> > >)>, std::allocator<void>, sensor_msgs::msg::JointState_<std::allocator<void> >, rclcpp::Subscription<sensor_msgs::msg::JointState_<std::allocator<void> >, std::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::JointState_<std::allocator<void> >, std::allocator<void> > >, rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::JointState_<std::allocator<void> >, std::allocator<void> > >(std::_Bind<void (WrenchPublisher::*(WrenchPublisher*, std::_Placeholder<1>))(std::shared_ptr<sensor_msgs::msg::JointState_<std::allocator<void> > >)>&&, rclcpp::SubscriptionOptionsWithAllocator<std::allocator<void> > const&, rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::JointState_<std::allocator<void> >, std::allocator<void> >::SharedPtr, std::shared_ptr<rclcpp::topic_statistics::SubscriptionTopicStatistics<sensor_msgs::msg::JointState_<std::allocator<void> > > >)::{lambda(rclcpp::node_interfaces::NodeBaseInterface*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, rclcpp::QoS const&)#1}::operator()(rclcpp::node_interfaces::NodeBaseInterface*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, rclcpp::QoS const&) const':\n"}
+[5.153683] (inverted_pendulum) StderrLine: {'line': b"control.cpp:(.text._ZZN6rclcpp27create_subscription_factoryIN11sensor_msgs3msg11JointState_ISaIvEEESt5_BindIFM15WrenchPublisherFvSt10shared_ptrIS5_EEPS7_St12_PlaceholderILi1EEEES4_S5_NS_12SubscriptionIS5_S4_NS_23message_memory_strategy21MessageMemoryStrategyIS5_S4_EEEESK_EENS_19SubscriptionFactoryEOT0_RKNS_32SubscriptionOptionsWithAllocatorIT1_EENT4_9SharedPtrES8_INS_16topic_statistics27SubscriptionTopicStatisticsIT2_EEEENKUlPNS_15node_interfaces17NodeBaseInterfaceERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_3QoSEE_clES13_S1B_S1E_[_ZZN6rclcpp27create_subscription_factoryIN11sensor_msgs3msg11JointState_ISaIvEEESt5_BindIFM15WrenchPublisherFvSt10shared_ptrIS5_EEPS7_St12_PlaceholderILi1EEEES4_S5_NS_12SubscriptionIS5_S4_NS_23message_memory_strategy21MessageMemoryStrategyIS5_S4_EEEESK_EENS_19SubscriptionFactoryEOT0_RKNS_32SubscriptionOptionsWithAllocatorIT1_EENT4_9SharedPtrES8_INS_16topic_statistics27SubscriptionTopicStatisticsIT2_EEEENKUlPNS_15node_interfaces17NodeBaseInterfaceERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_3QoSEE_clES13_S1B_S1E_]+0x5c): undefined reference to `rosidl_message_type_support_t const* rosidl_typesupport_cpp::get_message_type_support_handle<sensor_msgs::msg::JointState_<std::allocator<void> > >()'\n"}
+[5.163585] (inverted_pendulum) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[5.166228] (inverted_pendulum) StderrLine: {'line': b'make[2]: *** [CMakeFiles/wrench_publisher.dir/build.make:136: wrench_publisher] Error 1\n'}
+[5.166704] (inverted_pendulum) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/wrench_publisher.dir/all] Error 2\n'}
+[5.167146] (inverted_pendulum) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[5.170452] (inverted_pendulum) CommandEnded: {'returncode': 2}
+[5.221236] (-) TimerEvent: {}
+[5.322319] (-) TimerEvent: {}
+[5.376709] (inverted_pendulum) JobEnded: {'identifier': 'inverted_pendulum', 'rc': 2}
+[5.387420] (-) EventReactorShutdown: {}
