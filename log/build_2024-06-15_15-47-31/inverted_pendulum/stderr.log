@@ -1,4 +1,0 @@
-[01m[K/home/huucuong/mypendulumn/src/inverted_pendulum/src/control.cpp:[m[K In member function ‘[01m[Kvoid WrenchPublisher::publish_wrench()[m[K’:
-[01m[K/home/huucuong/mypendulumn/src/inverted_pendulum/src/control.cpp:55:29:[m[K [01;35m[Kwarning: [m[Klabel ‘[01m[Khttps[m[K’ defined but not used [[01;35m[K-Wunused-label[m[K]
-   55 |         if (slider_pos<1000)[01;35m[Khttps[m[K://medium.com/@peter.gaston/add-teleop-to-your-ros2-robot-5b7b0a5606ce
-      |                             [01;35m[K^~~~~[m[K

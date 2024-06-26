@@ -1,4 +1,0 @@
-[35m[1mScanning dependencies of target control_pendulum[0m
-[ 50%] Built target joint_state_listener
-[ 75%] [32mBuilding CXX object CMakeFiles/control_pendulum.dir/src/control.cpp.o[0m
-[100%] [32m[1mLinking CXX executable control_pendulum[0m

@@ -1,1 +1,0 @@
-/home/huucuong/mypendulumn/build/inverted_pendulum/ament_cmake_core/inverted_pendulumConfig-version.cmake

@@ -1,8 +1,0 @@
-[35m[1mScanning dependencies of target control_pendulum[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/control_pendulum.dir/src/control.cpp.o[0m
-[01m[K/home/huucuong/mypendulumn/src/inverted_pendulum/src/control.cpp:24:5:[m[K [01;31m[Kerror: [m[Knon-static data member declared with placeholder ‘[01m[Kauto[m[K’
-   24 |     [01;31m[Kauto[m[K myPos;
-      |     [01;31m[K^~~~[m[K
-make[2]: *** [CMakeFiles/control_pendulum.dir/build.make:63: CMakeFiles/control_pendulum.dir/src/control.cpp.o] Error 1
-make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/control_pendulum.dir/all] Error 2
-make: *** [Makefile:141: all] Error 2

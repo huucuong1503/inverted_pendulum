@@ -1,8 +1,0 @@
-[0.198s] Invoking command in '/home/huucuong/mypendulumn/build/inverted_pendulum': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/huucuong/mypendulumn/build/inverted_pendulum -- -j12 -l12
-[0.247s] [35m[1mScanning dependencies of target joint_state_listener[0m
-[0.252s] make[2]: *** No rule to make target '/home/huucuong/mypendulumn/src/inverted_pendulum/src/listen.cpp', needed by 'CMakeFiles/joint_state_listener.dir/src/listen.cpp.o'.  Stop.
-[0.252s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/joint_state_listener.dir/all] Error 2
-[0.252s] make[1]: *** Waiting for unfinished jobs....
-[0.272s] [ 50%] Built target control_pendulum
-[0.274s] make: *** [Makefile:141: all] Error 2
-[0.279s] Invoked command in '/home/huucuong/mypendulumn/build/inverted_pendulum' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/huucuong/mypendulumn/build/inverted_pendulum -- -j12 -l12

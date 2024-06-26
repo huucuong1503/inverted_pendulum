@@ -1,6 +1,0 @@
-Invoking command in '/home/huucuong/mypendulumn/build/inverted_pendulum': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/huucuong/mypendulumn/src/inverted_pendulum -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/huucuong/mypendulumn/install/inverted_pendulum
-Invoked command in '/home/huucuong/mypendulumn/build/inverted_pendulum' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/huucuong/mypendulumn/src/inverted_pendulum -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/huucuong/mypendulumn/install/inverted_pendulum
-Invoking command in '/home/huucuong/mypendulumn/build/inverted_pendulum': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/huucuong/mypendulumn/build/inverted_pendulum -- -j12 -l12
-Invoked command in '/home/huucuong/mypendulumn/build/inverted_pendulum' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/huucuong/mypendulumn/build/inverted_pendulum -- -j12 -l12
-Invoking command in '/home/huucuong/mypendulumn/build/inverted_pendulum': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/huucuong/mypendulumn/build/inverted_pendulum
-Invoked command in '/home/huucuong/mypendulumn/build/inverted_pendulum' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/huucuong/mypendulumn/build/inverted_pendulum
